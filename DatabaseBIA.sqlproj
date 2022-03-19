@@ -82,4 +82,8 @@
     <Build Include="Server Objects\telemetry_xevents.sql" />
     <Build Include="dbo\Tables\Address.sql.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="DatabaseBIA.publish.xml" />
+    <None Include="DatabaseBIA_1.publish.xml" />
+  </ItemGroup>
 </Project>
