@@ -2,8 +2,11 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
-    <TargetDatabaseName>DatabaseBIA</TargetDatabaseName>
+    <TargetDatabaseName>sqltestbbdacpac</TargetDatabaseName>
     <DeployScriptFileName>DatabaseBIA.sql</DeployScriptFileName>
     <ProfileVersionNumber>1</ProfileVersionNumber>
+    <TargetConnectionString>Data Source=sqlserverdacpacprojectbb.database.windows.net;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False</TargetConnectionString>
+    <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
+    <AllowIncompatiblePlatform>True</AllowIncompatiblePlatform>
   </PropertyGroup>
 </Project>

@@ -1,3 +1,3 @@
 ﻿CREATE LOGIN [l_certSignPolyBaseAuthorize]
-    FROM CERTIFICATE [_##PDW_PolyBaseAuthorizeSigningCertificate##];
+   FROM CERTIFICATE [_##PDW_PolyBaseAuthorizeSigningCertificate##];
 
